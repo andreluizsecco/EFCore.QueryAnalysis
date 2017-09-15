@@ -106,7 +106,7 @@ namespace EFCore.QueryAnalysis.Data
 
                 SELECT [x].[ID], [x].[AnoPublicacao], [x].[AutorID], [x].[CategoriaID], [x].[Titulo]
                 FROM [Livro] AS [x]
-                WHERE CHARINDEX(N'DDD', [x].[Titulo]) > 0
+                WHERE CHARINDEX(N'Domain', [x].[Titulo]) > 0
             */
         }
 
